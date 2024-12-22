@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Cropper</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div>You can crop image and download after</div>
+        <input type="file" id="inputFile" accept="image/*" hidden>
+        <canvas id="croppedImage" hidden></canvas>
+        <div id="buttonContainer">
+            <button id="uploadButton">Upload image</button>
+            <button id="cropButton">Crop image</button>
+            <button id="downloadButton">Download new image</button>
+        </div>
+        <div id="imageContainer" hidden>
+            <img id="inputImage">
+        </div>
+    </main>
+</body>
+</html>
